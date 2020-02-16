@@ -9,7 +9,7 @@ setup(
     author='Urs Liska',
     author_email='git@ursliska.de',
     description='LilyPond support for MkDocs.',
-    install_requires=['mkdocs', 'python-ly'],
+    install_requires=['python-ly'],
 
     # The following rows are important to register your plugin.
     # The format is "(plugin name) = (plugin folder):(class name)"
