@@ -1,5 +1,10 @@
-# lilypond-mkdocs-plugin
-MkDocs plugin supporting LilyPond (notation software) input
+# markdown-lilypond
+
+Tools to support LilyPond (code|scores) in Markdown files.
+
+Includes the `markdown_lilypond` Python(3) module and the `lilypond` MkDocs plugin.
+The separation into a dedicated plugin and a generic LilyPond package should make
+it possible to add other plugins at some later point, first of all a Pandoc filter.
 
 *NOTE:* This is a very preliminary "initial commit"-like repository.
 
@@ -21,7 +26,7 @@ Until we consider uploading this to PyPi the plugin may only be installed from t
 GitHub repository, either by issuing
 
 ```
-(sudo) pip3 install git+https://github.com/uliska/lilypond-mkdocs-plugin.git
+(sudo) pip3 install git+https://github.com/uliska/lilypond-markdown.git
 ```
 
 or - from within a download directory
