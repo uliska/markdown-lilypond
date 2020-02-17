@@ -26,7 +26,7 @@ Until we consider uploading this to PyPi the plugin may only be installed from t
 GitHub repository, either by issuing
 
 ```
-(sudo) pip3 install git+https://github.com/uliska/lilypond-markdown.git
+(sudo) pip3 install git+https://github.com/uliska/markdown-lilypond.git
 ```
 
 or - from within a download directory
