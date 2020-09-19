@@ -1,5 +1,5 @@
 import re
-from lilypond_plugin.syntax import LilyPondSyntax
+from markdown_lilypond.syntax import LilyPondSyntax
 
 class AbstractMarkdownDocument(object):
 

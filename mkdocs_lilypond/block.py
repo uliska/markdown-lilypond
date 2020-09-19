@@ -1,4 +1,4 @@
-from lilypond_plugin.block import AbstractLilyPondBlock
+from markdown_lilypond.block import AbstractLilyPondBlock
 
 class MkDocsLilyPondBlock(AbstractLilyPondBlock):
     pass
